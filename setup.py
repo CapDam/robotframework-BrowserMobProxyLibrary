@@ -6,7 +6,7 @@ from setuptools import setup
 
 sys.path.append(join(dirname(__file__), 'src'))
 
-execfile(join(dirname(__file__), 'src', 'BrowserMobProxyLibrary', 'version.py'))
+exec(join(dirname(__file__), 'src', 'BrowserMobProxyLibrary', 'version.py'))
 
 DESCRIPTION = """
 BrowserMobProxyLibrary is a Robot Framework library ro interface with BrowserMob Proxy.
