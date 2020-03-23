@@ -1,9 +1,9 @@
 from browsermobproxy import Server
 from browsermobproxy import RemoteServer
 import json
-from .version import VERSION
+#from .version import VERSION
 
-__version__ = VERSION
+#__version__ = VERSION
 
 LIMITS = {
     'upstream_kbps': 'upstreamKbps',
@@ -31,7 +31,7 @@ class BrowserMobProxyLibrary(object):
     imported into your Robot test suite.
     """
 
-    ROBOT_LIBRARY_VERSION = VERSION
+    ROBOT_LIBRARY_VERSION = '0.1.2'
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
 
     def __init__(self):
