@@ -16,7 +16,7 @@ simulating network traffic and latency, and rewriting HTTP requests and response
 """
 
 setup(name         = 'robotframework-browsermobproxylibrary',
-      version      = VERSION,
+      version      = '0.1.2',
       description  = 'BrowserMob Proxy library for Robot Framework',
       long_description = DESCRIPTION,
       author       = 'Marcin Mierzejewski',
