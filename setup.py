@@ -6,8 +6,6 @@ from setuptools import setup
 
 sys.path.append(join(dirname(__file__), 'src'))
 
-exec(open(join(dirname(__file__), 'src', 'BrowserMobProxyLibrary')).read())
-
 DESCRIPTION = """
 BrowserMobProxyLibrary is a Robot Framework library ro interface with BrowserMob Proxy.
 BrowserMob Proxy is a simple utility to capture performance data for web apps (via the HAR format),
